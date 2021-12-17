@@ -1,0 +1,20 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+h1,h2,h3,p{
+  text-align: center;
+}
+
+section{
+  display :grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+article{
+  margin:5px;
+}
