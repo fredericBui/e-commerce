@@ -18,3 +18,27 @@ section{
 article{
   margin:5px;
 }
+
+nav{
+  background-color: burlywood;
+  padding: 1px 0px;
+  text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0px;
+
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+nav ul li{
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
