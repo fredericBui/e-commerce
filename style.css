@@ -1,3 +1,5 @@
+/* Générale */
+
 *{
   font-family: 'Roboto', sans-serif;
 }
@@ -10,14 +12,7 @@ h1,h2,h3,p{
   text-align: center;
 }
 
-section{
-  display :grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-article{
-  margin:5px;
-}
+/* Barre de navigation */
 
 nav{
   background-color: burlywood;
@@ -41,4 +36,33 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   color: white;
+}
+
+nav ul li a:hover{
+  color:crimson;
+}
+
+/* Contenu principal */
+
+#sectionCollection{
+  display :grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section article{
+  margin:5px;
+}
+
+#sectionCollection article img:hover{
+  opacity: 0.8;
+}
+
+#sectionFiabilite{
+  display: flex;
+}
+
+/* Pied de page */
+
+footer i:hover{
+  transform: scale(1.5);
 }
