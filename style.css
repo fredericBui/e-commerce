@@ -12,6 +12,21 @@ h1,h2,h3,p{
   text-align: center;
 }
 
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: large;
+  padding: 5px 5px;
+}
+
+header #logo {
+  text-align: center;
+}
+
+header #client {
+  text-align: right;
+}
+
 /* Barre de navigation */
 
 nav{
