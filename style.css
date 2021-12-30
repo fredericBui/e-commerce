@@ -4,6 +4,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* Ajout de cette ligne*/
+a{
+  text-decoration: none;
+  color: black;
+}
+
 img{
   width: 100%;
 }
@@ -61,8 +67,21 @@ nav ul li a:hover{
 
 #sectionCollection{
   display :grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
+
+@media (min-width: 400px){
+  #sectionCollection{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px){
+  #sectionCollection{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 
 section article{
   margin:5px;
